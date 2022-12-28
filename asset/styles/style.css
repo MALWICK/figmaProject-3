@@ -336,12 +336,13 @@ h3 {
 .col-md-4 {
   height: 385px;
   width: 80%;
- /*  left: 0.5px;
+  /*  left: 0.5px;
   top: 0px; */
   border-radius: 0px;
   margin: auto;
   padding: 1%;
-  background-color: #f59815;
+  border: 1px solid #989898;
+  background-color: #f6f3f0;
 }
 
 .card-item1 {
@@ -354,6 +355,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  background: #d9edff;
 }
 
 .flex-row {
@@ -363,6 +365,10 @@ h3 {
   top: 0px;
   border-radius: 0px;
   padding: 30px 50px 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
 }
 
 .icn-circle {
@@ -396,4 +402,18 @@ h3 {
   left: 137px;
   top: 54px;
   border-radius: 0px;
+}
+
+.card-content1 {
+  height: 253px;
+  width: 328px;
+  left: 0px;
+  top: 132px;
+  border-radius: 11px;
+/*   padding: 30px 50px 30px 50px;
+ */  background-color: #edf0f3;
+  border: 1px solid #a9d6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
