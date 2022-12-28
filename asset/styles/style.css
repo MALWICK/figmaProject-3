@@ -270,8 +270,8 @@ h3 {
   gap: 10px;
   border-radius: 0px;
   text-align: center;
-    margin-top: 30%;
-    margin-bottom: 5%;
+  margin-top: 30%;
+  margin-bottom: 5%;
 }
 
 .whyh2 {
@@ -309,4 +309,91 @@ h3 {
   letter-spacing: 0.20000000298023224px;
   text-align: center;
   color: white;
+}
+
+.container2 {
+  height: 1215px;
+  width: 329px;
+  left: 0.5px;
+  top: 324px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+.row1 {
+  height: 1215px;
+  width: 329px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.col-md-4 {
+  height: 385px;
+  width: 328px;
+  left: 0.5px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.card-item1 {
+  height: 385px;
+  width: 328px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.flex-row {
+  height: 132px;
+  width: 333px;
+  left: -2.5px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 30px 50px 30px 50px;
+}
+
+.icn-circle {
+  height: 72px;
+  width: 72px;
+  left: 50px;
+  top: 30px;
+  border-radius: 200px;
+  background-color: white;
+}
+
+.icn-resiz {
+  height: 26.35295867919922px;
+  width: 32px;
+  left: 20px;
+  top: 23px;
+  border-radius: 0px;
+}
+
+.clarity {
+  height: 27px;
+  width: 29px;
+  left: 1.5px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.rowp {
+  height: 24px;
+  width: 146px;
+  left: 137px;
+  top: 54px;
+  border-radius: 0px;
 }
