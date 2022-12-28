@@ -313,12 +313,12 @@ h3 {
 
 .container2 {
   height: 1215px;
-  width: 329px;
+  width: 100%;
   left: 0.5px;
   top: 324px;
   border-radius: 0px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 10px;
@@ -326,22 +326,22 @@ h3 {
 
 .row1 {
   height: 1215px;
-  width: 329px;
+  width: 100%;
   left: 0px;
   top: 0px;
   border-radius: 0px;
+  margin: auto;
 }
 
 .col-md-4 {
   height: 385px;
-  width: 328px;
-  left: 0.5px;
-  top: 0px;
+  width: 80%;
+ /*  left: 0.5px;
+  top: 0px; */
   border-radius: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
+  margin: auto;
+  padding: 1%;
+  background-color: #f59815;
 }
 
 .card-item1 {
