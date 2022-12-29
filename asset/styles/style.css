@@ -536,3 +536,79 @@ h3 {
   color: #00a0c1;
   text-decoration: none;
 }
+
+.colmd-5 {
+  height: 385px;
+  width: 329px;
+  left: 0px;
+  top: 415px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.card-item2 {
+  height: 385px;
+  width: 328px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background: #d9edff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.flex-row1 {
+  height: 132px;
+  width: 340px;
+  left: -6px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 50px;
+  gap: 15px;
+}
+
+.icn-circle1 {
+  height: 72px;
+  width: 72px;
+  left: 50px;
+  top: 30px;
+  border-radius: 200px;
+  background: #ffffff;
+}
+
+.icn-resize-round {
+  height: 26.35295867919922px;
+  width: 32px;
+  left: 20px;
+  top: 23px;
+  border-radius: 0px;
+}
+
+.fa-solid,
+.fa-wreath {
+  height: 25px;
+  width: 19px;
+  left: 7px;
+  top: 1px;
+  border-radius: 0px;
+}
+
+.fa-solid,
+.fa-wreath i {
+  height: 25.000492095947266px;
+  width: 19.000198364257812px;
+  left: 0px;
+  top: -0.00244140625px;
+  border-radius: 0px;
+  color: #00A0C1;
+
+}
