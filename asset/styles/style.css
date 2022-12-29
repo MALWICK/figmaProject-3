@@ -336,10 +336,12 @@ h3 {
 .col-md-4 {
   height: 385px;
   width: 90%;
-  border-radius: 0px;
+  border-radius: 1px solid white;
   margin: auto;
   padding: 1%;
   border: 1px solid #989898;
+  background: #d9edff;
+  border-radius: 10px;
 }
 
 .card-item1 {
@@ -416,12 +418,121 @@ h3 {
 }
 
 .card-content1 {
-  height: 253px;
+  height: 242px;
   width: 100%;
   display: block;
   border-radius: 2px;
   padding: 30px 50px 30px 50px;
-  background: linear-gradient(0deg, #a9d6ff, #a9d6ff),
-    linear-gradient(0deg, #ffffff, #ffffff);
+  background: linear-gradient(0deg, #e1f1ff, #fff),
+    linear-gradient(0deg, #f9ffff, #ffffff);
   border: 1px solid #a9d6ff;
+}
+
+.heading1 {
+  height: 48px;
+  width: 191px;
+  left: 50px;
+  top: 30px;
+  border-radius: nullpx;
+}
+
+.heading1 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.heading2 {
+  height: 24px;
+  width: 168px;
+  left: 50px;
+  top: 83px;
+  border-radius: none;
+}
+
+.heading2 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.heading3 {
+  height: 24px;
+  width: 206px;
+  left: 50px;
+  top: 112px;
+  border-radius: nullpx;
+}
+
+.heading3 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.heading4 {
+  height: 24px;
+  width: 185px;
+  left: 50px;
+  top: 141px;
+  border-radius: nullpx;
+}
+
+.heading4 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.heading5 {
+  height: 24px;
+  width: 234px;
+  left: 50px;
+  top: 170px;
+  border-radius: nullpx;
+}
+
+.heading5 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.link1 {
+  height: 24px;
+  width: 84px;
+  left: 50px;
+  top: 199px;
+  border-radius: nullpx;
+}
+
+.link1 a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #00a0c1;
+  text-decoration: none;
 }
