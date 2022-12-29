@@ -335,85 +335,93 @@ h3 {
 
 .col-md-4 {
   height: 385px;
-  width: 80%;
-  /*  left: 0.5px;
-  top: 0px; */
+  width: 90%;
   border-radius: 0px;
   margin: auto;
   padding: 1%;
   border: 1px solid #989898;
-  background-color: #f6f3f0;
 }
 
 .card-item1 {
   height: 385px;
-  width: 328px;
+  width: 100%;
   left: 0px;
   top: 0px;
   border-radius: 10px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  background: #d9edff;
 }
 
 .flex-row {
   height: 132px;
-  width: 333px;
-  left: -2.5px;
-  top: 0px;
+  width: 100%;
   border-radius: 0px;
   padding: 30px 50px 30px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 5%;
+  background: #d9edff;
 }
 
 .icn-circle {
-  height: 72px;
-  width: 72px;
+  height: 56px;
+  width: 29vw;
   left: 50px;
   top: 30px;
-  border-radius: 200px;
+  border-radius: 50%;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icn-resiz {
   height: 26.35295867919922px;
   width: 32px;
-  left: 20px;
-  top: 23px;
-  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  padding: 1%;
+}
+
+.icn-resiz i {
+  color: #47b0c3;
+  font-size: large;
 }
 
 .clarity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 27px;
-  width: 29px;
-  left: 1.5px;
-  top: 0px;
-  border-radius: 0px;
+  width: 100%;
+  border-radius: 200px;
 }
 
 .rowp {
   height: 24px;
-  width: 146px;
-  left: 137px;
-  top: 54px;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
   border-radius: 0px;
 }
 
 .card-content1 {
   height: 253px;
-  width: 328px;
-  left: 0px;
-  top: 132px;
-  border-radius: 11px;
-/*   padding: 30px 50px 30px 50px;
- */  background-color: #edf0f3;
+  width: 100%;
+  display: block;
+  border-radius: 2px;
+  padding: 30px 50px 30px 50px;
+  background: linear-gradient(0deg, #a9d6ff, #a9d6ff),
+    linear-gradient(0deg, #ffffff, #ffffff);
   border: 1px solid #a9d6ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
